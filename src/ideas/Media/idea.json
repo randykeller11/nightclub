@@ -1,0 +1,34 @@
+{
+  "name": "Media",
+  "schema": [
+    {
+      "name": "media",
+      "type": "media"
+    },
+    {
+      "name": "framed",
+      "type": "boolean"
+    },
+    {
+      "name": "frameColor",
+      "type": "color"
+    },
+    {
+      "name": "position",
+      "type": "position"
+    },
+    {
+      "name": "scale",
+      "type": "scale"
+    },
+    {
+      "name": "rotation",
+      "type": "rotation"
+    },
+    {
+      "name": "collision",
+      "type": "boolean"
+    }
+  ],
+  "npm_dependencies": {}
+}

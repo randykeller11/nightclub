@@ -1,0 +1,1 @@
+{"ast":null,"code":"","map":{"version":3,"sources":[],"names":[],"mappings":"","sourcesContent":["export type BackendWorld = {\n  id: string;\n  user_id: number;\n  name: string;\n  slug?: string;\n  predecessor?: string;\n  data_url?: string;\n  up_to_date: boolean;\n};"]},"metadata":{},"sourceType":"script"}

@@ -27,7 +27,7 @@ export default function Starter() {
       <ambientLight />
       <AnimatedSpeaker1 />
       <AnimatedSpeaker2 />
-      <Video src="/placeholderVid.mp4" size={5} muted position={[0.5, 2, -9]} />
+      <Video src="/placeholderVid.mp4" size={5} position={[0.5, 2, -9]} />
       <DanceFloor
         position={[1.75, -3.25, 5]}
         scale={[0.3, 0.3, 0.3]}

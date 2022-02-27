@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Spinning, Floating, StandardEnvironment } from "spacesvr";
+import { Video, StandardEnvironment } from "spacesvr";
 import TransparentFloor from "../ideas/TransparentFloor";
 import CloudySky from "../ideas/CloudySky";
 import AnimatedSpeaker1 from "../components/AnimatedSpeaker1";
@@ -26,6 +26,7 @@ export default function Starter() {
       <ambientLight />
       <AnimatedSpeaker1 />
       <AnimatedSpeaker2 />
+      <Video src="/placeholderVid.mp4" size={5} muted position={[0.5, 2, -9]} />
 
       <CloudySky color={colors[colorStore.color]} />
       <TransparentFloor opacity={0.7} />
